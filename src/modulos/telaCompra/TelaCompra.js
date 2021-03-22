@@ -1,5 +1,6 @@
 import React from 'react';
 import './TelaCompra.css';
+import logo from '../../componentes/logo.svg';
 //primereact e primeicons
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -9,7 +10,7 @@ import 'primeicons/primeicons.css';
 function TelaCompra() {
   return (
     <div class="Tela_de_compra MatcSreen">
-  <div class="Row_3"> <img src="undefined/a2aa10aFfxDhPLbJJUJ9EdGkY9QeejYQNzFbtwBwJJQM4pVe9HdYktSa2yLK.jpg" class="Image_5" />
+  <div class="Row_3"> <img src={logo} class="Image_5" />
     <div class="Hamburger_Menu_1" />
     <div class="Rounded_Rectangle_1">
       <div class="Button_3">Periféricos</div>

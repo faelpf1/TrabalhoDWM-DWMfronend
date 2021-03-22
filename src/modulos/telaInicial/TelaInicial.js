@@ -1,5 +1,6 @@
 import React from 'react';
 import './TelaInicial.css';
+import logo from '../../componentes/logo.svg';
 //primereact e primeicons
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -9,7 +10,7 @@ import 'primeicons/primeicons.css';
 function TelaInicial() {
   return (
   <div class="TelaInicial_1 MatcSreen">
-  <div class="Row_7"> <img src="undefined/a2aa10aFfxDhPLbJJUJ9EdGkY9QeejYQNzFbtwBwJJQM4pVe9HdYktSa2yLK.jpg" class="Image" />
+  <div class="Row_7"> <img src={logo} class="Image" />
     <div class="Hamburger_Menu" />
     <div class="Rounded_Rectangle">
       <div class="Row_10">

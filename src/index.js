@@ -12,9 +12,9 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route path="/" exact={true} component={TelaInicial} />
-      <Route path="/Login" exact={true} component={TelaLogin} />
-      <Route path="/Registro" exact={true} component={TelaRegistro} />
-      <Route path="/Compra" exact={true} component={TelaCompra} />
+      <Route path="/Login" component={TelaLogin} />
+      <Route path="/Registro" component={TelaRegistro} />
+      <Route path="/Compra" component={TelaCompra} />
 
 
     </Switch>
