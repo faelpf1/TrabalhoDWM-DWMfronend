@@ -6,6 +6,7 @@ import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 //componentes
+import Botao from '../../componentes/Botao';
 
 function TelaRegistro() {
   return (
@@ -19,10 +20,8 @@ function TelaRegistro() {
   <div class="Label_ConfirmarSenha">Confirmar Senha:</div>
   <div class="Campo_Password_1" />
   <div class="Row_6">
-    <div class="Bt_Cancelar">CANCELAR
-    </div>
-    <div class="Bt_Cadastrar">CADASTRAR
-    </div>
+    <Botao nome="CANCELAR" class="Bt_Cancelar"/>
+    <Botao nome="CADASTRAR" class="Bt_Cadastrar"/>
   </div>
 </div>
   );

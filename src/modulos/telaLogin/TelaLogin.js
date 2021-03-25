@@ -6,6 +6,9 @@ import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 //componentes
+import Botao from '../../componentes/Botao';
+import CampoTexto from '../../componentes/CampoTexto';
+import CampoSenha from '../../componentes/CampoSenha';
 
 function TelaLogin() {
   return (
@@ -14,14 +17,11 @@ function TelaLogin() {
     <div class="Label">Eletrônicos e Variedades</div>
     <div class="Label_1">Crie já sua conta!</div>
   </div>
-  <div class="Label_3">Email:</div>
-  <div class="Campo_Email" />
-  <div class="Label_4">Senha:</div>
-  <div class="Campo_Password" />
+  <CampoTexto texto="Digite o E-mail" class="Campo_Email"/>
+  <CampoSenha texto="Digite sua senha" class="Campo_Password"/>
   <div class="Row_2">
-    <div class="Bt_Inscrever">Inscreva-se!</div>
-    <div class="Bt_Entrar">Entrar
-    </div>
+    <Botao nome="Inscreva-se!" class="Bt_Inscrever"/>
+    <Botao nome="Entrar" class="Bt_Entrar"/>
   </div>
 </div>
   );

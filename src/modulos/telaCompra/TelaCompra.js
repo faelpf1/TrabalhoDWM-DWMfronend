@@ -6,6 +6,7 @@ import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 //componentes
+import Botao from '../../componentes/Botao';
 
 function TelaCompra() {
   return (

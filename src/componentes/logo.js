@@ -4,8 +4,6 @@ import logo from './logo.svg';
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function Logo() {
   return (
