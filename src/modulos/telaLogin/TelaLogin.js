@@ -21,8 +21,8 @@ function TelaLogin() {
   <CampoTexto texto="Digite o E-mail" class="Campo_Email"/>
   <CampoSenha texto="Digite sua senha" class="Campo_Password"/>
   <div class="Row_2">
-    <Botao nome="Inscreva-se!" class="Bt_Inscrever"/>
-    <Botao nome="Entrar" class="Bt_Entrar"/>
+    <Botao nome="Inscreva-se!" class="Bt_Inscrever" onClick='/Registro' />
+    <Botao nome="Entrar" class="Bt_Entrar" onClick='/Compra' />
   </div>
 </div>
   );

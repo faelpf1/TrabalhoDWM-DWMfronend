@@ -1,6 +1,5 @@
 import React from 'react';
 import './TelaCompra.css';
-import logo from '../../componentes/logo.svg';
 //primereact e primeicons
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';

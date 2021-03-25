@@ -4,7 +4,7 @@ import TelaLogin from './modulos/telaLogin/TelaLogin';
 import TelaRegistro from './modulos/telaRegistro/TelaRegistro';
 import TelaInicial from './modulos/telaInicial/TelaInicial';
 import TelaCompra from './modulos/telaCompra/TelaCompra';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 //import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
