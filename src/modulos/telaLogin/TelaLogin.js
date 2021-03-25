@@ -14,7 +14,7 @@ function TelaLogin() {
   const [valor, setValor] = useState("");
   return (
     <div class="TelaLogin MatcSreen">
-  <div class="Row_1"><Logo class="Image"/>  
+  <div class="Row_1"> <Logo class="Image"/>  
     <div class="Label">Eletrônicos e Variedades</div>
     <div class="Label_1">Crie já sua conta!</div>
   </div>

@@ -7,37 +7,35 @@ div {
   margin:0px;
 }
 
-.TelaRegistro {
+.TelaLogin_1 {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
 
-.TelaRegistro .Image {
-  margin-right: 37%;
-  margin-left: 37%;
-  min-height: 218px;
-  margin-top: 0px;
+.TelaLogin_1 .Row_17 {
+  display: grid;
+  grid-template-columns: 41% 7% auto;
+  grid-template-rows: auto 19% 14% 18% 9%;
+  margin-right: 39%;
+  margin-left: 2%;
+  min-height: 210px;
+  margin-top: 28px;
+}
+
+
+.TelaLogin_1 .Image {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
   height:100%;
   width:100%;
 }
 
-.TelaRegistro .Label_Nome {
-  color: #000000;
-  text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: 1;
-  margin-right: 56%;
-  margin-left: 35%;
-  min-height: 18px;
-  margin-top: 40px;
-}
 
-
-.TelaRegistro .Campo_Nome {
+.TelaLogin_1 .Campo_Nome {
   background-color: #ffffff;
   color: #333333;
   text-align: left;
@@ -46,28 +44,14 @@ div {
   border: 1px solid #333333;
   border-radius: 3px;
   padding: 5px;
-  margin-right: 36%;
-  margin-left: 36%;
-  min-height: 34px;
-  margin-top: 18px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 
-.TelaRegistro .Label_Email {
-  color: #000000;
-  text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: 1;
-  margin-right: 56%;
-  margin-left: 35%;
-  min-height: 18px;
-  margin-top: 40px;
-}
-
-
-.TelaRegistro .Campo_Email {
+.TelaLogin_1 .Campo_Email {
   background-color: #ffffff;
   color: #333333;
   text-align: left;
@@ -76,28 +60,14 @@ div {
   border: 1px solid #333333;
   border-radius: 3px;
   padding: 5px;
-  margin-right: 36%;
-  margin-left: 36%;
-  min-height: 34px;
-  margin-top: 18px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 
-.TelaRegistro .Label_Senha {
-  color: #000000;
-  text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: 1;
-  margin-right: 56%;
-  margin-left: 35%;
-  min-height: 18px;
-  margin-top: 11px;
-}
-
-
-.TelaRegistro .Campo_Password {
+.TelaLogin_1 .Campo_Password {
   background-color: #ffffff;
   color: #333333;
   text-align: left;
@@ -106,28 +76,14 @@ div {
   border: 1px solid #333333;
   border-radius: 3px;
   padding: 5px;
-  margin-right: 36%;
-  margin-left: 36%;
+  margin-right: 39%;
+  margin-left: 31%;
   min-height: 32px;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 
-.TelaRegistro .Label_ConfirmarSenha {
-  color: #000000;
-  text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: 1;
-  margin-right: 49%;
-  margin-left: 35%;
-  min-height: 18px;
-  margin-top: 10px;
-}
-
-
-.TelaRegistro .Campo_Password_1 {
+.TelaLogin_1 .Campo_Password_1 {
   background-color: #ffffff;
   color: #333333;
   text-align: left;
@@ -136,26 +92,101 @@ div {
   border: 1px solid #333333;
   border-radius: 3px;
   padding: 5px;
-  margin-right: 36%;
-  margin-left: 36%;
+  margin-right: 39%;
+  margin-left: 31%;
   min-height: 32px;
-  margin-top: 16px;
+  margin-top: 28px;
 }
 
 
-.TelaRegistro .Row_6 {
+.TelaLogin_1 .Row_18 {
   display: grid;
-  grid-template-columns: auto 30% auto;
+  grid-template-columns: auto 4% 20%;
   grid-template-rows: auto;
-  margin-right: 36%;
-  margin-left: 36%;
-  min-height: 68px;
-  margin-top: 70px;
-  margin-bottom: 66px;
+  margin-right: 39%;
+  margin-left: 31%;
+  min-height: 40px;
+  margin-top: 30px;
 }
 
 
-.TelaRegistro .Bt_Cancelar {
+.TelaLogin_1 .Campo_Cidade {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+
+.TelaLogin_1 .Campo_Estado {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px 6px 5px 6px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+
+.TelaLogin_1 .Campo_Endereco {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 39%;
+  margin-left: 31%;
+  min-height: 28px;
+  margin-top: 28px;
+}
+
+
+.TelaLogin_1 .Campo_CEP {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 39%;
+  margin-left: 31%;
+  min-height: 28px;
+  margin-top: 28px;
+}
+
+
+.TelaLogin_1 .Row_19 {
+  display: grid;
+  grid-template-columns: 33% auto 33%;
+  grid-template-rows: auto;
+  margin-right: 39%;
+  margin-left: 31%;
+  min-height: 68px;
+  margin-top: 98px;
+  margin-bottom: 50px;
+}
+
+
+.TelaLogin_1 .Bt_Cancelar {
   background-color: #33333b;
   color: #ffffff;
   text-align: center;
@@ -172,7 +203,7 @@ div {
 }
 
 
-.TelaRegistro .Bt_Cadastrar {
+.TelaLogin_1 .Bt_Cadastrar {
   background-color: #33333b;
   color: #ffffff;
   text-align: center;
@@ -182,7 +213,6 @@ div {
   line-height: 1;
   border: 1px solid #333333;
   border-radius: 3px;
-  cursor: pointer;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;

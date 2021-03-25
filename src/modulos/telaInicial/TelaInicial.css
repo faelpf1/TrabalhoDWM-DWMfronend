@@ -7,74 +7,75 @@ div {
   margin:0px;
 }
 
-.TelaInicial_1 {
-  background-color: #ffffff;
+.TelaInicial {
+  background-color: #000000;
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
 
-.TelaInicial_1 .Row_7 {
+.TelaInicial .Row_20 {
   display: grid;
-  grid-template-columns: 4% 24% 1% 1% 1% 11% auto 3% 1% 3% 5% 3% 1%;
-  grid-template-rows: 7% 3% 10% 3% 10% 14% auto 1% 10% 6%;
+  grid-template-columns: 0% 4% 24% 2% auto 0% 9% 3%;
+  grid-template-rows: auto 11% 31% 0% 12% 0%;
   margin-right: 0%;
   margin-left: 0%;
-  min-height: 290px;
+  min-height: 276px;
   margin-top: 0px;
 }
 
 
-.TelaInicial_1 .Image {
+.TelaInicial .Image {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 8;
+  grid-row-end: 4;
   height:100%;
   width:100%;
 }
 
 
-.TelaInicial_1 .Hamburger_Menu {
+.TelaInicial .Menu {
   background-color: #ffffff;
   color: #333333;
   text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-family: Roboto, " sans-serif";
+  font-size: 14px;
+  border-radius: 4px;
   padding: 8px 15px 8px 15px;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 9;
-  grid-row-end: 10;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 7;
 }
 
 
-.TelaInicial_1 .Rounded_Rectangle {
+.TelaInicial .Bt_Monitores {
   background-color: #a1a1a1;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 8;
-  grid-row-end: 11;
+  grid-column-start: 3;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 6;
 }
 
 
-.TelaInicial_1 .Row_10 {
+.TelaInicial .Row_23 {
   display: grid;
-  grid-template-columns: auto 0% 9% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 10% 1% 8% 1% 8%;
+  grid-template-columns: auto 11% auto 11% auto;
   grid-template-rows: auto;
-  margin-right: 0%;
-  margin-left: 0%;
-  min-height: 50px;
-  margin-top: 0px;
+  margin-right: 3%;
+  margin-left: 66%;
+  min-height: 34px;
+  margin-top: 1px;
   margin-bottom: 0px;
 }
 
 
-.TelaInicial_1 .Button {
+.TelaInicial .Bt_Mouse {
   background-color: #333333;
   color: #c7caff;
   text-align: center;
@@ -91,7 +92,7 @@ div {
 }
 
 
-.TelaInicial_1 .Button_1 {
+.TelaInicial .Bt_Teclados {
   background-color: #333333;
   color: #ef0c0c;
   text-align: center;
@@ -108,7 +109,7 @@ div {
 }
 
 
-.TelaInicial_1 .Button_4 {
+.TelaInicial .Button_4 {
   background-color: #333333;
   color: #a8e4ab;
   text-align: center;
@@ -125,135 +126,7 @@ div {
 }
 
 
-.TelaInicial_1 .Button_6 {
-  background-color: #333333;
-  color: #ffcaca;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  grid-column-start: 7;
-  grid-column-end: 8;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-
-.TelaInicial_1 .Button_7 {
-  background-color: #333333;
-  color: #ffffff;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  grid-column-start: 9;
-  grid-column-end: 10;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-
-.TelaInicial_1 .Button_8 {
-  background-color: #333333;
-  color: #dc33ce;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  grid-column-start: 11;
-  grid-column-end: 12;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-
-.TelaInicial_1 .Button_9 {
-  background-color: #333333;
-  color: #caffc6;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  grid-column-start: 13;
-  grid-column-end: 14;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-
-.TelaInicial_1 .Button_10 {
-  background-color: #333333;
-  color: #ffffff;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1;
-  border: 1px solid transparent;
-  border-radius: 3px;
-  grid-column-start: 15;
-  grid-column-end: 16;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-
-.TelaInicial_1 .Button_11 {
-  background-color: #333333;
-  color: #6db3f9;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  grid-column-start: 17;
-  grid-column-end: 18;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-
-.TelaInicial_1 .Button_12 {
-  background-color: #333333;
-  color: #89f49e;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  grid-column-start: 19;
-  grid-column-end: 20;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-
-.TelaInicial_1 .Icon_1 {
-  color: #333333;
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 4;
-}
-
-
-.TelaInicial_1 .Text_Box {
+.TelaInicial .Text_Box {
   background-color: #ffffff;
   color: #333333;
   text-align: left;
@@ -263,40 +136,13 @@ div {
   border-radius: 3px;
   padding: 5px;
   grid-column-start: 5;
-  grid-column-end: 10;
-  grid-row-start: 6;
-  grid-row-end: 7;
-}
-
-
-.TelaInicial_1 .Label_10 {
-  color: #000000;
-  text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: 1;
-  grid-column-start: 6;
-  grid-column-end: 7;
+  grid-column-end: 6;
   grid-row-start: 2;
-  grid-row-end: 4;
-}
-
-.TelaInicial_1 .Label_8 {
-  color: #000000;
-  text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: 1;
-  grid-column-start: 13;
-  grid-column-end: 9;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  grid-row-end: 3;
 }
 
 
-.TelaInicial_1 .Button_2 {
+.TelaInicial .Button_2 {
   background-color: #0c9849;
   color: #ffffff;
   text-align: center;
@@ -306,32 +152,14 @@ div {
   line-height: 1;
   border: 1px solid #333333;
   border-radius: 3px;
-  grid-column-start: 9;
-  grid-column-end: 12;
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 
-.TelaInicial_1 .Icon_2 {
-  color: #333333;
-  grid-column-start: 11;
-  grid-column-end: 14;
-  grid-row-start: 1;
-  grid-row-end: 6;
-}
-
-
-.TelaInicial_1 .Icon {
-  color: #333333;
-  grid-column-start: 12;
-  grid-column-end: 13;
-  grid-row-start: 6;
-  grid-row-end: 7;
-}
-
-
-.TelaInicial_1 .Label {
+.TelaInicial .Label {
   color: #333333;
   text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -341,80 +169,220 @@ div {
   margin-right: 0%;
   margin-left: 0%;
   min-height: 20px;
-  margin-top: 26px;
+  margin-top: 37px;
 }
 
 
-.TelaInicial_1 .Row_8 {
+.TelaInicial .Row_21 {
   display: grid;
-  grid-template-columns: 1% 8% 5% 2% 2% auto 5% auto 3% auto 4% auto 4% auto;
-  grid-template-rows: 1% 33% 17% 1% auto;
-  margin-right: 8%;
-  margin-left: 4%;
-  min-height: 300px;
-  margin-top: 16px;
+  grid-template-columns: 1% 3% 8% 7% auto 1px;
+  grid-template-rows: 4% 31% auto 20px;
+  margin-left: 0%;
+  margin-right: -4px;
+  min-height: 325px;
+  margin-top: 7px;
 }
 
 
-.TelaInicial_1 .Label_5 {
+.TelaInicial .Label_8 {
+  color: #333333;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+
+.TelaInicial .Box {
+  background-color: #080707;
+  color: #ef0c0c;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.TelaInicial .Row_24 {
+  display: grid;
+  grid-template-columns: auto 9% auto auto auto auto auto auto auto 9% auto;
+  grid-template-rows: auto;
+  margin-right: 6%;
+  margin-left: 8%;
+  min-height: 100px;
+  margin-top: 104px;
+  margin-bottom: 101px;
+}
+
+
+.TelaInicial .Image_6 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height:100%;
+  width:100%;
+}
+
+
+.TelaInicial .Image_2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height:100%;
+  width:100%;
+}
+
+
+.TelaInicial .Image_3 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height:100%;
+  width:100%;
+}
+
+
+.TelaInicial .Image_4 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height:100%;
+  width:100%;
+}
+
+
+.TelaInicial .Image_5 {
+  grid-column-start: 9;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height:100%;
+  width:100%;
+}
+
+
+.TelaInicial .Image_7 {
+  grid-column-start: 11;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height:100%;
+  width:100%;
+}
+
+
+.TelaInicial .Label_5 {
   color: #333333;
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0px;
   letter-spacing: 0;
   line-height: 1;
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
-
-
-.TelaInicial_1 .Image_3 {
-  cursor: pointer;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 4;
-  height:100%;
-  width:100%;
-}
-
-
-.TelaInicial_1 .Image_4 {
-  cursor: pointer;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 6;
-  height:100%;
-  width:100%;
-}
-
-
-.TelaInicial_1 .Image_1 {
-  grid-column-start: 5;
+  grid-column-start: 3;
   grid-column-end: 3;
-  grid-row-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+
+.TelaInicial .Image_1 {
+  grid-column-start: 5;
+  grid-column-end: 4;
+  grid-row-start: 2;
   grid-row-end: 3;
   height:100%;
   width:100%;
 }
 
 
-.TelaInicial_1 .Row_9 {
+.TelaInicial .Row_22 {
   display: grid;
-  grid-template-columns: 2% 0% 0% 2% 0% 2% 0% 2% 0% 8% 4% auto 4% auto 3% auto 3% auto 4% auto 8%;
-  grid-template-rows: 6% 1% 3% 3% 1% 1% 4% 5% 29% 1% auto;
-  margin-right: 0%;
+  grid-template-columns: 2% 0% 0% 2% 2% 0% 2% 0% auto;
+  grid-template-rows: 10% 3% 1% 1% 5% 5% auto;
   margin-left: 0%;
-  min-height: 320px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-right: 5px;
+  min-height: 305px;
+  margin-top: 7px;
+  margin-bottom: 27px;
 }
 
 
-.TelaInicial_1 .Label_6 {
+.TelaInicial .Box_1 {
+  background-color: #080707;
+  color: #ef0c0c;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 8;
+}
+
+
+.TelaInicial .Row_25 {
+  display: grid;
+  grid-template-columns: 13% auto 13% auto 13%;
+  grid-template-rows: auto;
+  margin-right: 18%;
+  margin-left: 20%;
+  min-height: 100px;
+  margin-top: 100px;
+  margin-bottom: 105px;
+}
+
+
+.TelaInicial .Image_8 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height:100%;
+  width:100%;
+}
+
+
+.TelaInicial .Image_9 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height:100%;
+  width:100%;
+}
+
+
+.TelaInicial .Image_10 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height:100%;
+  width:100%;
+}
+
+
+.TelaInicial .Label_6 {
   color: #333333;
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -428,7 +396,7 @@ div {
 }
 
 
-.TelaInicial_1 .Label_2 {
+.TelaInicial .Label_2 {
   color: #333333;
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -437,12 +405,12 @@ div {
   line-height: 1;
   grid-column-start: 4;
   grid-column-end: 4;
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 
-.TelaInicial_1 .Label_7 {
+.TelaInicial .Label_7 {
   color: #333333;
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -451,48 +419,40 @@ div {
   line-height: 1;
   grid-column-start: 5;
   grid-column-end: 5;
-  grid-row-start: 9;
-  grid-row-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 7;
 }
 
 
-.TelaRegistroSemSucesso .Image_2 {
-  cursor: pointer;
-  margin-right: 74%;
-  margin-left: 14%;
-  min-height: 150px;
-  margin-top: -992px;
-  height:100%;
-  width:100%;
-}
-
-
-.TelaInicial_1 .Image_15 {
-  cursor: pointer;
-  grid-column-start: 6;
-  grid-column-end: 11;
-  grid-row-start: 10;
-  grid-row-end: 12;
-  height:100%;
-  width:100%;
-}
-
-
-.TelaInicial_1 .Label_3 {
+.TelaInicial .Label_3 {
   color: #333333;
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   letter-spacing: 0;
   line-height: 1;
-  grid-column-start: 7;
-  grid-column-end: 8;
-  grid-row-start: 4;
-  grid-row-end: 4;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 
 
-.TelaInicial_1 .Label_4 {
+.TelaInicial .Label_4 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0px;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column-start: 8;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+
+
+.TelaInicial .Label_1 {
   color: #333333;
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -501,53 +461,28 @@ div {
   line-height: 1;
   grid-column-start: 9;
   grid-column-end: 9;
-  grid-row-start: 8;
-  grid-row-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 3;
 }
 
 
-.TelaInicial_1 .Label_1 {
+.TelaInicial .Icon_1 {
   color: #333333;
-  text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0px;
-  letter-spacing: 0;
-  line-height: 1;
-  grid-column-start: 10;
-  grid-column-end: 10;
-  grid-row-start: 5;
-  grid-row-end: 5;
-}
-
-
-.TelaInicial_1 .Image_17 {
-  cursor: pointer;
-  grid-column-start: 12;
-  grid-column-end: 13;
-  grid-row-start: 2;
-  grid-row-end: 10;
-  height:100%;
-  width:100%;
-}
-
-
-.TelaInicial_1 .Image_16 {
-  cursor: pointer;
-  grid-column-start: 12;
-  grid-column-end: 13;
-  grid-row-start: 10;
-  grid-row-end: 12;
-  height:100%;
-  width:100%;
-}
-
-
-.TelaInicial_1 .Image_18 {
-  cursor: pointer;
-  grid-column-start: 14;
-  grid-column-end: 15;
-  grid-row-start: 2;
-  grid-row-end: 10;
-  height:100%;
-  width:100%;
+  border-bottom-color: #333333;
+  border-top-color: #333333;
+  border-left-color: #333333;
+  border-right-color: #333333;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  position: fixed;
+  width: 3%;
+  left: 31%;
+  top: 20px;
+  height: 40px;
 }
