@@ -7,10 +7,11 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 //componentes
 import Botao from '../../componentes/Botao';
+import Logo from '../../componentes/logo';
 
 function TelaRegistro() {
   return (
-   <div class="TelaRegistro MatcSreen"><img src={logo} class="Image" />
+   <div class="TelaRegistro MatcSreen"><Logo class="Image"/>
    <div class="Label_Nome">Nome:</div>
   <div class="Campo_Nome" />
   <div class="Label_Email">Email:</div>

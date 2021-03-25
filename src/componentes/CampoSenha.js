@@ -10,7 +10,7 @@ function CampoTexto(props){
   return(
     <div class={props.class}>
       <span className="p-float-label">
-        <Password id={props.texto} texto="Digite uma Senha" feedback={false} required={true} value={valor} onChange={(e) => setValor(e.target.value)}/>
+        <Password id={props.texto} value={props.texto} feedback={false} required={true} value={valor} onChange={(e) => setValor(e.target.value)}/>
         <label htmlhtmlfor={props.texto}>{props.texto}</label>
       </span>
     </div>

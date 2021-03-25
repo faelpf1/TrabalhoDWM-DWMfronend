@@ -7,11 +7,12 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 //componentes
 import Botao from '../../componentes/Botao';
+import Logo from '../../componentes/logo';
 
 function TelaCompra() {
   return (
     <div class="Tela_de_compra MatcSreen">
-  <div class="Row_3"> <img src={logo} class="Image_5" />
+  <div class="Row_3"> <Logo class="Image_5"/>  
     <div class="Hamburger_Menu_1" />
     <div class="Rounded_Rectangle_1">
       <div class="Button_3">Periféricos</div>

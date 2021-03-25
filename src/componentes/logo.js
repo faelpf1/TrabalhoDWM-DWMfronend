@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './Hype.jpg';
+//import logo from '../../componentes/logo.svg';
 //import Navbar from 'react-bootstrap/Navbar';
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 
 
-function Logo() {
+function Logo(props) {
   return (
     <>
-      <Image src={logo} roundedCircle/>
+      <Image src={logo} class={props.class} roundedCircle/>
    </>
   );
 }

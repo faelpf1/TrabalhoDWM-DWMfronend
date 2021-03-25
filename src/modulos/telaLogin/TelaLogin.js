@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './TelaLogin.css';
-import logo from '../../componentes/logo.svg';
 //primereact e primeicons
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -9,11 +8,13 @@ import 'primeicons/primeicons.css';
 import Botao from '../../componentes/Botao';
 import CampoTexto from '../../componentes/CampoTexto';
 import CampoSenha from '../../componentes/CampoSenha';
+import Logo from '../../componentes/logo';
 
 function TelaLogin() {
+  const [valor, setValor] = useState("");
   return (
     <div class="TelaLogin MatcSreen">
-  <div class="Row_1"> <img src={logo} class="Image" />
+  <div class="Row_1"><Logo class="Image"/>  
     <div class="Label">Eletrônicos e Variedades</div>
     <div class="Label_1">Crie já sua conta!</div>
   </div>

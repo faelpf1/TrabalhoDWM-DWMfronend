@@ -7,11 +7,12 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 //componentes
 import Botao from '../../componentes/Botao';
+import Logo from '../../componentes/logo';
 
 function TelaInicial() {
   return (
   <div class="TelaInicial_1 MatcSreen">
-  <div class="Row_7"> <img src={logo} class="Image" />
+  <div class="Row_7"> <Logo class="Image"/>
     <div class="Hamburger_Menu" />
     <div class="Rounded_Rectangle">
       <div class="Row_10">
