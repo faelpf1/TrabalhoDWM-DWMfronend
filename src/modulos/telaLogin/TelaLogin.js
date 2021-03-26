@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './TelaLogin.css';
+import api from '../../servicos/api';
 //primereact e primeicons
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -11,16 +12,22 @@ import CampoSenha from '../../componentes/CampoSenha';
 import Logo from '../../componentes/logo';
 
 function TelaLogin() {
+  api.get('/Cliente').then(res => { console.log(res.date)});  
   const [valor, setValor] = useState("");
   return (
-    <div class="TelaLogin MatcSreen">
-  <div class="Row_1"> <Logo class="Image"/>  
-    <div class="Label">Eletrônicos e Variedades</div>
-    <div class="Label_1">Crie já sua conta!</div>
-  </div>
-  <CampoTexto texto="Digite o E-mail" class="Campo_Email"/>
-  <CampoSenha texto="Digite sua senha" class="Campo_Password"/>
-  <div class="Row_2">
+    <div class="TelaLogin">
+      <div class="content"> 
+      <div className="image">
+        <Logo className="image"/> 
+      </div> 
+      <div class="Label">Eletrônicos e Variedades</div>
+    </div>
+    <div className="form">
+      <CampoTexto texto="Digite o E-mail" class="Campo" valorEmail/>
+      <CampoSenha texto="Digite sua senha" class="Campo" valorSenha/>
+    </div>
+
+  <div className="Row_2">
     <Botao nome="Inscreva-se!" class="Bt_Inscrever" onClick='/Registro' />
     <Botao nome="Entrar" class="Bt_Entrar" onClick='/Compra' />
   </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './TelaRegistro.css';
+import api from '../../servicos/api';
 //primereact e primeicons
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -12,23 +13,32 @@ import CampoSenha from '../../componentes/CampoSenha';
 import DropD from '../../componentes/DropD';
 
 function TelaRegistro() {
+  /*registro = async ()=>{
+    let res = await api.post('/cliente', {nome : , email: , senha: , estado:, cidade:, endereço:, cep: })
+    console.log(res)
+  }*/
   return (
-   <div class="TelaLogin_1 MatcSreen">
-  <div class="Row_17"> <Logo class="Image"/> 
+   <div class="TelaRegistro">
+   <div class="content"> 
+      <div className="image">
+        <Logo className="image"/> 
+      </div> 
+  <div className="Row_1">
+    <div classname="campo">
+      <CampoTexto texto="Digite seu nome" className="Campo"/>
+      <CampoTexto texto="Digite seu E-mail" className="Campo"/>
+      <CampoSenha texto="Digite sua senha" className="Campo"/>
+      <CampoSenha texto="Confirme sua senha" className="Campo"/>
+      <CampoTexto texto="Digite seu CEP" className="Campo"/>
+      <CampoTexto texto="Digite seu endereço" className="Campo"/>
+      <CampoTexto texto="Digite sua cidade" className="Campo"/>
+      <DropD className="Campo" />
+    </div>
   </div>
-  <CampoTexto texto="Digite seu nome" class="Campo_Nome"/>
-  <CampoTexto texto="Digite seu E-mail" class="Campo_Email"/>
-  <CampoSenha texto="Digite sua senha" class="Campo_Password"/>
-  <CampoSenha texto="Confirme sua senha" class="Campo_Password_1"/>
-  <div class="Row_18">
-    <CampoTexto texto="Digite sua cidade" class="Campo_Cidade"/>
-    <DropD class="Campo_Estado" />
   </div>
-  <CampoTexto texto="Digite seu endereço" class="Campo_Endereco"/>
-  <CampoTexto texto="Digite seu CEP" class="Campo_CEP"/>
-  <div class="Row_19">
-    <Botao nome="CANCELAR" class="Bt_Cancelar" onClick='/' />
-    <Botao nome="CADASTRAR" class="Bt_Cadastrar" onClick='/Login'/>
+  <div class="Row_2">
+    <Botao nome="CANCELAR" className="Bt_Cancelar" onClick='/' />
+    <Botao nome="CADASTRAR" className="Bt_Cadastrar" onClick='/Login'/>
   </div>
 </div>
   );

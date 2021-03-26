@@ -9,7 +9,7 @@ function Botao(props){
   const history = useHistory();
   return(
     <div class={props.class}>
-      <Button label={props.nome} onClick={()=>history.push(props.onClick)}/>
+      <Button label={props.nome} style={{width:150, height:50}} onClick={()=>history.push(props.onClick)}/>
     </div>
   );
 };

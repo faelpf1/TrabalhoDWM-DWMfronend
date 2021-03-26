@@ -36,7 +36,7 @@ function DropD(props){
 ];
   return(
     <div class={props.class}>
-      <Dropdown value={estado} options={estadoSelectItems} onChange={(e) => setEstado(e.value)} placeholder="Estado"/>
+      <Dropdown value={estado} options={estadoSelectItems} style={{width:220, height:40}} onChange={(e) => setEstado(e.value)} placeholder="Estado"/>
     </div>
   );
 };
