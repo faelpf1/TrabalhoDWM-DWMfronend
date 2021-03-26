@@ -6,29 +6,16 @@ import { Rating } from 'primereact/rating';
 
 function MostrarProduto(){
   const preco = 1000.00;
-    const [products, setProducts] = useState([]);
-   /* useEffect(() => {
-        productService.getProductsSmall().then(data => setProducts(data));}, []); // eslint-disable-line react-hooks/exhaustive-deps*/
+  const [products, setProducts] = useState([]);
+  useEffect(() => { productService.getProductsSmall().then(data => setProducts(data));}, []); // eslint-disable-line react-hooks/exhaustive-deps*/
 
-    const formatCurrency = (value) => {
-      return value.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
-    }
-
-    const imageBodyTemplate = (rowData) => {
-        return <img src={`showcase/demo/images/product/${rowData.image}`} onError={(e) => e.target.src='https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png'} alt={rowData.image} className="product-image" />;
-    }
-
-    const priceBodyTemplate = (preco) => {
-        return formatCurrency(preco);
-    }
 
   return(
             <div className="card">
-                <DataTable value='{products}'>
-                    <Column field="name" header="Name"></Column>
-                    <Column header="Image"  ></Column>
-                    <Column field="price" header="Price" body={priceBodyTemplate} ></Column>
-                    <Column field="category" header="Category"></Column>
+                <DataTable value='{produtos}'>
+                    <Column field="nome" header="nome"></Column>
+                    <Column field="preço" header="preço"></Column>
+                    <Column field="tipo" header="tipo"></Column>
                 </DataTable>
             </div>
   );

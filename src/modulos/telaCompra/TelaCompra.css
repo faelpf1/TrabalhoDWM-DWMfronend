@@ -50,15 +50,8 @@ div {
 
 
 .Tela_de_compra .Rounded_Rectangle_1 {
-  background-color: #a1a1a1;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 8;
-  grid-row-end: 12;
+  position: relative;
+  bottom: 400px;                                                    
 }
 
 

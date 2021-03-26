@@ -9,7 +9,7 @@ import Image from 'react-bootstrap/Image';
 function Logo(props) {
   return (
     <>
-      <Image src={logo} className={props.class} roundedCircle/>
+      <Image src={logo} className={props.class} style={{width:450, height:300}} roundedCircle/>
    </>
   );
 }
